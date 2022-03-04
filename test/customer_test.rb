@@ -1,7 +1,7 @@
 require 'minitest/autorun'
-require_relative 'movie'
-require_relative 'rental'
-require_relative 'customer'
+require_relative '../lib/movie'
+require_relative '../lib/rental'
+require_relative '../lib/customer'
 
 class CustomerTest < Minitest::Test
   def setup
